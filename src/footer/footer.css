@@ -1,0 +1,38 @@
+footer {
+    background-color: white;
+    height: auto;
+    display: flex;
+    padding: 30px 8;
+    justify-content: space-around;
+    width: 100%;
+    background-image: url('../img/uyee.svg');
+}
+
+#logo-footer {
+    width: 100px;
+    height: 100px;
+    margin-top: 30%;
+}
+
+footer div {
+    width: 20%;
+}
+
+footer div ul {
+    list-style: none;
+    text-align: left;
+
+}
+
+footer div ul li {
+    margin: 10px 0;
+}
+
+#jeki {
+    font-size: 25px;
+    margin-bottom: 10px
+}
+
+#ajo {
+    text-align: justify;
+}

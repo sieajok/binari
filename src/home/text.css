@@ -1,0 +1,86 @@
+
+/* Utilities */
+.card-do::after,
+.card img {
+  border-radius: 50%;
+}
+body,
+.card-do,
+.stats {
+  display: flex;
+  height: 400px;
+}
+
+.card-do {
+  padding: 2.5rem 2rem;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, .5);
+  max-width: 100%;
+  box-shadow: 0 0 30px rgba(0, 0, 0, .15);
+  margin: 4rem;
+  transform-style: preserve-3d;
+  overflow: hidden;
+  justify-content: center;
+  
+}
+.card-do::before,
+.card-do::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  justify-content: center;
+}
+.card-do::before {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #FFF;
+  border-radius: 10px;
+  top: -.7rem;
+  left: -.7rem;
+}
+.card-do::after {
+  height: 15rem;
+  width: 15rem;
+  background-color: #4172f5aa;
+  top: -8rem;
+  right: -8rem;
+  box-shadow: 2rem 6rem 0 -3rem #FFF
+  
+}
+
+.card img {
+  width: 10rem;
+  padding-left: 100px;
+  min-width: 250px;
+  box-shadow: 0 0 0 5px #FFF;
+  justify-content: center;
+  margin-top: 20%;
+}
+
+.joe {
+    justify-content: center; 
+    margin-top: 200px;
+}
+
+.h5 {
+    color: #625a5a;
+    margin-left: 30%;
+}
+
+.huu {
+    margin-left: 30%;
+}
+
+.pada{
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/lep.jpg');
+    background-attachment: fixed;
+   color: #ffffffc7;
+}
+
+.wkwk .pada {
+    color: #FFF;
+    text-decoration: bild;
+}
